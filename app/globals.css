@@ -1,26 +1,106 @@
 @import "tailwindcss";
 
+/* ================================
+   DARK MODE VARIANT
+================================== */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ================================
+   COLORS & VARIABLES
+================================== */
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #333333;
+  --primary: #522ffe;
+  --card: #ebebeb;
 }
 
+.dark {
+  --background: #030304;
+  --foreground: #ffffff;
+  --primary: #522ffe;
+  --card: #1d1d1d;
+}
+
+/* ================================
+   THEME EXTENSIONS
+================================== */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-card: var(--card);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Custom keyframes */
+  @keyframes scroll {
+    0% {
+      transform: translateX(-5.2%);
+    }
+    100% {
+      transform: translateX(-55.2%);
+    }
+  }
+
+  /* Animation shorthand */
+  --animate-scroll: scroll 25s linear infinite;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* ================================
+   COMPONENTS
+================================== */
+@layer components {
+  .circle-icon {
+    @apply flex justify-center items-center rounded-full w-11 h-11 md:w-14 md:h-14 bg-[#f4ebff]/10 absolute;
+  }
+
+  .highlight {
+    @apply bg-primary text-white py-2 px-4 rounded-[4px];
+  }
+
+  .section-contents {
+    @apply w-full flex flex-col items-center gap-10 md:gap-12;
+  }
+
+  .card {
+    @apply bg-card rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)];
+  }
+
+  .contact-button {
+    @apply p-1.5 rounded-md shadow-[0_3px_10px_rgb(0,0,0,0.2)] w-8 h-8 flex items-center justify-center;
   }
 }
 
+/* ================================
+   CUSTOM UTILITIES
+================================== */
+@layer utilities {
+  /* Radial gradient support */
+  .bg-gradient-radial {
+    background-image: radial-gradient(var(--tw-gradient-stops));
+  }
+
+  /* Optional variants if you want to control gradient origin */
+  .bg-gradient-radial-center {
+    background-image: radial-gradient(circle at center, var(--tw-gradient-stops));
+  }
+
+  .bg-gradient-radial-top {
+    background-image: radial-gradient(circle at top, var(--tw-gradient-stops));
+  }
+
+  .bg-gradient-radial-bottom {
+    background-image: radial-gradient(circle at bottom, var(--tw-gradient-stops));
+  }
+}
+
+/* ================================
+   GLOBAL BODY STYLES
+================================== */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif, Arial, Helvetica;
 }

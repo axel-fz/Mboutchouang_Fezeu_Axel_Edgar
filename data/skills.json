@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Typescript",
+        "icon": "/java_icon.png"
+    },
+    {
+        "name": "CSS",
+        "icon": "/css_icon.png"
+    },
+    {
+        "name": "Javascript",
+        "icon": "/js_icon.png"
+    },
+
+    {
+        "name": "HTML",
+        "icon": "/html_icon.png"
+    },
+   
+    {
+        "name": "React JS",
+        "icon": "/react_icon.png"
+    },
+    
+   
+    {
+        "name": "Next JS",
+        "icon": "/nextjs.jfif"
+    },
+    {
+        
+        "name": "Express JS",
+        "icon": "/expresss.jfif"
+    },
+    {
+        "name": "Nest JS",
+        "icon": "/nestjs.png"
+    },
+    {
+        "name": "Python",
+        "icon": "/python.jfif"
+    },
+   
+    {
+        "name": "Flask",
+        "icon": "/flask.jfif"
+    },
+   
+    {
+        "name": "Mongo DB",
+        "icon": "/mongodb.jfif"
+    },
+    {
+        "name": "Posgresql",
+        "icon": "/posgresql.jfif"
+    }
+   
+   
+ 
+]
+

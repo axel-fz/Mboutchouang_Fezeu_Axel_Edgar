@@ -1,0 +1,33 @@
+[
+    
+    {
+        "thumbnail":"jobfit.png",
+        "title":"JobFit",
+        "link":{
+            "label":"JobFit",
+            "url":"https://www.example.com"
+        },
+        "description":"4 in One Saas that help you to enhance your resume and simulate a job interview in order to prepare you for your dream job",
+        "languageIcon":[]
+    },
+    {
+        "thumbnail":"camb.png",
+        "title":"Currency Exchange",
+        "link":{
+            "label":"CambisteCM",
+            "url":"https://cambiste-cm.vercel.app/"
+        },
+        "description":"Here is a plateforme that put together two people with the aim of exchanging currency as a service",
+        "languageIcon":[]
+    },
+    {
+        "thumbnail":"thumbecho.png",
+        "title":"Echo Shop",
+        "link":{
+            "label":"Echo Shop",
+            "url":"https://echostore-kyud.vercel.app/fr"
+        },
+        "description":"establishing online presence of echo shop through its web page",
+        "languageIcon":[]
+    }
+]

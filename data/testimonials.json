@@ -1,0 +1,20 @@
+[
+    {
+        "image":"/val.png",
+        "name":"Valerie",
+        "role":"Human resources",
+        "description":"Even as a junior software deveolper Axel showed his ability to solve complex problems"
+    },
+    {
+        "image":"/cabral.png",
+        "name":"Cabral",
+        "role":"senior developer",
+        "description":"seeing the efforts he puts in his work i can tell that he is on the right path"
+    },
+    {
+        "image":"/mc.jfif",
+        "name":"Loic",
+        "role":"Technical lead",
+        "description":"The noticable fact is that he is hard working"
+    }
+]
