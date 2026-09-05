@@ -25,12 +25,12 @@
    
     {
         "name": "Next JS",
-        "icon": "/nextjs.jfif"
+        "icon": "/nextjs.png"
     },
     {
         
         "name": "Express JS",
-        "icon": "/expresss.jfif"
+        "icon": "/expresss.png"
     },
     {
         "name": "Nest JS",
@@ -38,25 +38,25 @@
     },
     {
         "name": "Python",
-        "icon": "/python.jfif"
+        "icon": "/python.png"
     },
    
     {
         "name": "Flask",
-        "icon": "/flask.jfif"
+        "icon": "/flask.png"
     },
    
     {
         "name": "Mongo DB",
-        "icon": "/mongodb.jfif"
+        "icon": "/mongodb.png"
     },
     {
         "name": "Posgresql",
-        "icon": "/posgresql.jfif"
+        "icon": "/posgresql.png"
     },
     {
          "name": "Git",
-        "icon": "/git.jfif"
+        "icon": "/git.png"
     }
    
    

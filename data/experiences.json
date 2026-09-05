@@ -1,21 +1,21 @@
 [
    
    {
-        "image":"/seven.jfif",
+        "image":"/seven.png",
         "company":"SEVEN ACADEMY",
         "role":"KIDS CODE INSTRUCTOR",
         "description":"Initiating the youth into coding through a well structured and adapted methodology, with the use of scratch we build thier minds through various projects to think like problem solvers in a funny and interesting way adapted for their age range",
         "dates":"June 29 to August 8, 2026."
     },
     {
-        "image":"/BICEC.jfif",
+        "image":"/BICEC.png",
         "company":"BICEC CAMEROON",
         "role":"INTERNSHIP MONETARY DEPARTEMENT ",
         "description":"Treatement of client claims in the monetary departement(monetique) consist of making use of electronic ATM band, server logs, video survay and manual bands to process request and regularize client's accounts ",
         "dates":"November(2024) – January(2025)"
     },
     {
-        "image":"/santa.jfif",
+        "image":"/santa.png",
         "company":"SANTA LUCIA CAMEROON",
         "role":"INTERNSHIP INFORMATION SYSTEM DEPARTEMENT ",
         "description":"My expertise includes the installation of Odoo on Linux servers, hardware component replacement for various devices, and the installation and maintenance of video surveillance systems. I also have a strong understanding of Organizational Unit (OU) structures within Windows Server environments. Based in Santa Lucia, Douala-Cameroun.",
