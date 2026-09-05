@@ -70,6 +70,7 @@ const Project = ({thumbnail, title, link, description, languageIcon }: Props) =>
                 <h3 className = "font-semibold text-xl md:text-[22px]">{title}</h3>
                 <a 
                 href={link.url}
+                target='_blank'
                 className = "flex px-[5px] py-[3px] gap-1 bg-[#b9b9b9] bg-opacity-[24%] rounded text-[14px]"
                 >
                     <span className ="hidden md:block">{link.label}</span>
