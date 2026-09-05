@@ -53,6 +53,10 @@
     {
         "name": "Posgresql",
         "icon": "/posgresql.jfif"
+    },
+    {
+         "name": "Git",
+        "icon": "/git.jfif"
     }
    
    
