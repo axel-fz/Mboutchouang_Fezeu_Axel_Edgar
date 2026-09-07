@@ -68,7 +68,25 @@ const Contact = () => {
                   className=" dark:hidden"
                 />
               </a>
-              {/*    <a target = "_blank"
+              <a target = "_blank"
+                     href="https://www.linkedin.com/in/axel-fezeu-3bb61a2a4/ "
+                     className = "contact-button">
+                            <Image
+                             src = "/in.png"
+                             alt = "LinkedIn icon"
+                             height = {14}
+                             width = {17}
+                             className = "hidden dark:block"
+                            />
+                            <Image
+                             src = "/in.png"
+                             alt = "Twitter icon"
+                             height = {14}
+                             width = {17}
+                             className = " dark:hidden"
+                            />
+                    </a>
+                 {/* <a target = "_blank"
                      href="https://www.x.com "
                      className = "contact-button">
                             <Image
