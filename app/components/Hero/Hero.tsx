@@ -39,7 +39,7 @@ const Hero = () => {
         </Reveals>
         <Reveals initialX={-40} delay={0.4}>
           <a
-            href="https://www.freecodecamp.org/certification/fcc-224e7d35-4fe1-4b62-b3b7-2d6833a664db/responsive-web-design-v9"
+            href="https://axel-fz.github.io/certifications_exposition/"
             target='_blank'
             className="self-center bg-primary text-white p-2.5 rounded flex gap-2.5 items-center text-sm md:self-start md:text-xl/6"
           >
