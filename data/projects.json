@@ -20,5 +20,16 @@
         },
         "description":"establishing online presence of echo shop through its web page",
         "languageIcon":[]
+    },
+    {
+        "thumbnail":"lifeui.png",
+        "title":"LifeUI",
+        "link":{
+            "label":"LifeUI",
+            "url":"https://lifeui-nu.vercel.app/"
+        },
+        "description":"when fun and style comes together this is a project done for inspiration purpose Frontend only ",
+        "languageIcon":[]
     }
+
 ]
